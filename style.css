@@ -23,12 +23,15 @@ h1 {
 button {
     background-color: var(--theme);
     color: white;
-    padding: 10px;
+    padding: 12px 20px;
     border: none;
-    transition: 0.3s;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: all 0.3s ease;
 }
 
 button:hover {
     background-color: #1a5f00;
+    transform: scale(1.05);
     cursor: pointer;
 }
