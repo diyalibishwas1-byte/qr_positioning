@@ -1,0 +1,34 @@
+:root {
+    --theme: #280;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: var(--theme);
+}
+
+#marker {
+    width: 20px;
+    height: 20px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+}
+
+button {
+    background-color: var(--theme);
+    color: white;
+    padding: 10px;
+    border: none;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #1a5f00;
+    cursor: pointer;
+}
